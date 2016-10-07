@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'threeFramework_Example' do
+  pod 'threeFramework', :path => '../'
+
+  target 'threeFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
